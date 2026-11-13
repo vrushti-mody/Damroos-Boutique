@@ -1035,3 +1035,145 @@ address {
     justify-content: flex-start;
   }
 }
+
+@media (max-width: 576px) {
+  .reviews-header {
+    gap: 10px;
+  }
+
+  .review-list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 18px;
+  }
+
+  .review-card {
+    padding: 16px 14px 14px;
+    gap: 10px;
+  }
+
+  .review-quote {
+    font-size: 0.94rem;
+  }
+
+  .review-source {
+    font-size: 8px;
+    letter-spacing: 0.08em;
+  }
+
+  .reviews-header h2 {
+    font-size: clamp(2rem, 8vw, 2.8rem);
+  }
+}
+
+  .site-header {
+    height: 68px;
+  }
+
+  .wordmark {
+    font-size: 28px;
+  }
+
+  .menu-toggle {
+    display: flex;
+    width: 46px;
+    height: 46px;
+    border: 1px solid var(--ink);
+    border-radius: 50%;
+    background: transparent;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-toggle span:not(.sr-only) {
+    width: 17px;
+    height: 1px;
+    background: var(--ink);
+  }
+
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: rgba(245, 239, 232, 0.96);
+    padding: 22px 5vw 28px;
+    border-bottom: 1px solid var(--line);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .main-nav.is-open {
+    display: flex;
+  }
+
+  .main-nav a {
+    font-size: 15px;
+  }
+
+  .hero {
+    padding: 54px 6vw 20px;
+    gap: 28px;
+  }
+
+  .hero-intro {
+    font-size: 1rem;
+  }
+
+  .hero-visual {
+    min-height: 360px;
+  }
+
+  .floating-note {
+    padding: 12px 14px;
+  }
+
+  .feature-band,
+  .section-wrap {
+    padding-left: 6vw;
+    padding-right: 6vw;
+  }
+
+  .feature-item {
+    padding: 18px 18px;
+  }
+
+  .section-label {
+    font-size: 9px;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .story h2,
+  .finds h2,
+  .visit h2 {
+    font-size: 2.8rem;
+  }
+
+  .find-card {
+    min-height: 360px;
+  }
+
+  .details-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .consent-banner {
+    left: 12px;
+    right: 12px;
+    bottom: 10px;
+    grid-template-columns: 1fr;
+    padding: 18px 16px;
+  }
+
+  .consent-actions {
+    justify-content: flex-start;
+  }
+}
